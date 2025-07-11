@@ -139,11 +139,16 @@ html {
   gap: 30px;
 }
 
+label{
+  display: block;
+}
+
 .work-item {
   background: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
   transition: transform 0.3s;
+  margin: 0 auto;
 }
 
 .work-item:hover {
@@ -339,4 +344,7 @@ html {
 
 li {
   list-style: none;
+}
+body,html{
+  cursor: url(./cursor.png), auto;
 }
